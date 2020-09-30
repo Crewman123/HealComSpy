@@ -1,0 +1,13 @@
+## Interface: 11305
+## Title: HealComSpy
+## Version: 1.0
+## OptionalDeps: LibClassicHealComm-1.0
+
+#@no-lib-strip@
+libs\LibStub\LibStub.lua
+libs\CallbackHandler-1.0\CallbackHandler-1.0.xml
+libs\LibHealComm-4.0\LibHealComm-4.0.xml
+#@end-no-lib-strip@
+
+spy.lua
+Spy.xml

@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Ui xmlns="http://www.blizzard.com/wow/ui/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.blizzard.com/wow/ui/ C:\Projects\WoW\Bin\Interface\FrameXML\UI.xsd">
+  <Script file="spy.lua"></Script>
+  <Button hidden="true" parent="UIParent">
+    <Scripts>
+      <OnLoad>Spy_onload(self);</OnLoad>
+    </Scripts>
+  </Button>
+</Ui>
