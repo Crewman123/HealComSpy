@@ -86,7 +86,7 @@ function HealComm:HealComm_HealUpdated(event, casterGUID, spellID, healType, end
 		elseif UnitName(unit) ~=nil and playersInfo[UnitName(unit)] == nil then
 			localizedClass, englishClass, classIndex = UnitClass(unit);
 			if classIndex == 2 or classIndex == 5 or classIndex == 11 then
-				playersInfo[UnitName(unit)] = "<NA>"
+				playersInfo[UnitName(unit)] = "<No event received>"
 			end
 		end
 	end
